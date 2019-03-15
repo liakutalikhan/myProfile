@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none
+}
+
+.clr {
+    clear: both;
+}
+
+.full_wrapper {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+
+.ptb {
+    padding: 95px 0px;
+    text-align: center;
+}
+
+/*Common Class*/
+
+/*Header Section Start*/
+
+.head {
+    background-image: linear-gradient(to left bottom, #E71372, #E71372, #561897, #5a1795, #5d1793);
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.branding {
+    width: 30%;
+    float: left;
+}
+
+.branding a {
+    color: #F21692;
+    font-weight: 800;
+    font-size: 30px;
+    display: block;
+    padding: 17px 0;
+}
+
+.branding a span {
+    color: #EDEAF5
+}
+
+.nav {
+    width: 70%;
+    float: left
+}
+
+.nav ul {
+    float: right;
+    margin-top: 19px
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 10px 25px;
+    color: #EDEAF5;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.nav ul li a:hover {
+    background-color: #EDEAF5;
+    color: #5A1796;
+    border-radius: 5px;
+}
+
+/*Header Section End*/
+
+/*Banner Section End*/
+
+.banner {
+    background: linear-gradient(to left bottom, rgba(49, 25, 147, .8), rgba(83, 28, 171, .8)), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.banner_info {
+    text-align: center;
+}
+
+.banner_info h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.banner_info h1 {
+    font-size: 68px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    line-height: 70px;
+}
+
+.banner_info h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff
+}
+
+.banner_info div img {
+    padding: 25px 0;
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+.banner_info a {
+    padding: 18px 30px;
+    border: 1px solid #f21692;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.banner_info a:hover {
+    background-color: #F21692;
+}
+
+.banner_info a i {
+    margin-left: 10px
+}
+
+/*About Section*/
+.section_heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.section_heading h2 {
+    color: #F21692;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.section_heading h6 {
+    padding: 3px 0px;
+    letter-spacing: 3px;
+    color: #5F44B2;
+}
+
+.section_heading p {
+    color: #858c90;
+    font-weight: 400;
+    padding: 0 50px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.section_heading p span {
+    font-weight: 700;
+    color: gray;
+}
+
+.about_inner {
+    text-align: center;
+    width: 25%;
+    float: left;
+    border-right: 2px solid #ededed;
+    padding: 30px 20px 40px 20px;
+    box-sizing: border-box;
+    color: #858c90;
+    display: block;
+}
+
+.about_inner h2 {
+    color: #6147AF;
+}
+
+.about_inner i {
+    color: #F21692;
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+.about_inner:nth-child(5) {
+    border-right: none;
+}
+
+.service {
+    padding: 70px 0;
+    background: linear-gradient(to left bottom, rgba(49, 25, 147, .8), rgba(83, 28, 171, .3)), url(../images/services3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.service_left .section_heading {
+    text-align: left;
+}
+
+.service_left {
+    width: 50%;
+}
+
+.service_left .section_heading p {
+    padding-left: 0;
+    color: white;
+}
+
+.service_left .section_heading h6 {
+    color: white;
+}
+
+.service_inner {
+    width: 50%;
+    float: left;
+    height: 200px;
+    padding: 30px 30px 30px 0px;
+    box-sizing: border-box;
+}
+
+.service_inner i {
+    font-size: 24px;
+    padding: 20px;
+    color: #F21692;
+}
+
+.service_inner h2 {
+    color: #ffff;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.service_inner p {
+    color: #EDEAF5
+}
+
+/*Service Section End*/
+
+/*Work Section End*/
+
+.my_work .section_heading h2 {
+    color: #6147AF
+}
+
+.work_wrapper {
+    display: flex;
+    flex-flow: wrap;
+}
+
+div.work_inner {
+}
+
+.work_inner {
+    
+    padding: 5px;
+    width: 25%;
+    line-height: 0px;
+}
+.work_inner .content{
+    position: relative;
+    overflow: hidden;
+}
+.work_inner img {
+    width: 100%;
+
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    bottom: -185px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left bottom, rgba(49, 25, 147, .8), rgba(83, 28, 171, .3));
+    line-height: normal;
+    color:#fff;
+    text-align: center;
+    transition: .6s;
+}
+
+.work_inner .overlay div.overlay_text{
+    position: relative;
+    top: 0;
+    transition: .6s;
+}
+.work_inner:hover .overlay div.overlay_text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+ .work_inner:hover .overlay{
+    bottom: 0px;
+}
+.overlay h2{padding: 10px}
+
+.contact .section_heading h2 {
+    color: #6147AF
+}
+.subscribe{
+    width: 500px;
+    height: 62px;
+    border: 1px solid #7947AF;
+    border-radius: 50px;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 0 30px 0 rgba(62,28,131,0.05);
+}
+.subscribe input{
+    padding: 0 130px 0 32px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color:#858c90;
+    font-size: 16px;
+}
+.subscribe button{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    padding: 15px 27px;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    line-height: 18px;
+    background-color: #F21692;
+}
+.contact{
+    background: linear-gradient(to left bottom, rgba(49, 25, 147, .8), rgba(83, 28, 171, .8)), url(../images/Contact_Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:100px 0px;
+}
+.contact .section_heading h2{color:#F21692} 
+.contact .section_heading p{color:#fff} 
+
+.subscribe_sec .section_heading h2 span {
+    color: #4539AF;
+}
+.social_icon{margin: auto;
+font-size: 26px;
+text-align: center;
+letter-spacing: 10px;
+margin:50px 0;}
